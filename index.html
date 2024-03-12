@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign in form</title>
+    <style>
+      input:invalid:focus{
+      border: 1px solid red;
+      }
+    </style>
+  </head>
+
+<form action="http://www.google.com" method="GET">
+  <section align="center" style=" margin:50px;">  
+  <label for="signin" style=" background-color:blue; padding:10px;">SIGN IN</label><br>
+  <label for="name" style="">Name</label>
+  <input required type="text" id="name" name="name" value="John Doe"><br>
+  <label for="email">Email</label>
+  <input required type="email" id="email" name="email" value="john.doe@email.com"><br>
+<label for="password">Password</label>
+   <input required type="password" id="password" name="password"><br>
+
+   <label for="dob">Date of Birth</label>
+   <input required type="date" id="dob" name="dob">
+ <br>
+<input required type="checkbox" id="acceptTerms" name="acceptTerms">
+   <label for="acceptTerms">Accept Terms & Conditions</label>
+ <br>
+  <button type="submit">Submit</button>
+  </section>
+</form>
+</html>
